@@ -1,1 +1,148 @@
-<h1>Dashboard</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - CTSolutions</title>
+    <style>
+        :root {
+            --color-principal: #004d99;
+            --color-acento: #ff5e3b;
+            --color-fondo: #f8f9fa;
+            --color-texto: #343a40;
+            --color-borde: #dee2e6;
+        }
+
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            background-color: var(--color-fondo);
+            color: var(--color-texto);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .header-bar {
+            width: 100%;
+            max-width: 1300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px 0;
+            border-bottom: 2px solid var(--color-borde);
+        }
+
+        h1 {
+            color: var(--color-principal);
+            font-size: 28px;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .buttons-group {
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn {
+            background-color: #fff;
+            color: var(--color-principal);
+            border: 1px solid var(--color-principal);
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-weight: 600;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            cursor: pointer;
+        }
+
+        .btn:hover:not(.active) {
+            background-color: var(--color-principal);
+            color: #fff;
+        }
+
+        .btn.active {
+            background-color: var(--color-acento);
+            color: #fff;
+            border-color: var(--color-acento);
+        }
+
+        .btn-logout {
+            color: #dc3545;
+            border-color: #dc3545;
+        }
+
+        .btn-logout:hover {
+            background-color: #dc3545;
+            color: #fff;
+        }
+
+        .iframe-container {
+            width: 100%;
+            max-width: 1300px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        iframe {
+            width: 100%;
+            height: calc(100vh - 180px);
+            min-height: 600px;
+            border: none;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .header-bar {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+            h1 { font-size: 24px; }
+            .buttons-group { flex-wrap: wrap; }
+            .btn { padding: 8px 12px; font-size: 14px; }
+            iframe { height: calc(100vh - 220px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-bar">
+        <h1>Dashboard CTSolutions</h1>
+        <div class="buttons-group">
+            <a href="#" class="btn active" id="btn-capacitacion">Capacitación</a>
+            <a href="#" class="btn" id="btn-enfermeria">Enfermería</a>
+            <a href="{{ url_for('logout') }}" class="btn btn-logout">Cerrar Sesión</a>
+        </div>
+    </div>
+
+    <div class="iframe-container">
+        <iframe id="iframe-powerbi" src="https://app.powerbi.com/view?r=eyJrIjoiY2IwNzU0YTItZTNiMi00NDVmLWJmYTktYWM5MTQ0ZTJlNWUxIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9" allowFullScreen="true"></iframe>
+    </div>
+
+    <script>
+        const btnCap = document.getElementById('btn-capacitacion');
+        const btnEnf = document.getElementById('btn-enfermeria');
+        const iframe = document.getElementById('iframe-powerbi');
+
+        btnCap.addEventListener('click', () => {
+            iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiY2IwNzU0YTItZTNiMi00NDVmLWJmYTktYWM5MTQ0ZTJlNWUxIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9";
+            btnCap.classList.add('active');
+            btnEnf.classList.remove('active');
+        });
+
+        btnEnf.addEventListener('click', () => {
+            iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiYWY4NDA4OTgtYzhiNy00NzE3LWFmZDQtMDRiNmM2YzIzYzg4IiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9";
+            btnEnf.classList.add('active');
+            btnCap.classList.remove('active');
+        });
+    </script>
+</body>
+</html>
