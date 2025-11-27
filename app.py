@@ -6,8 +6,8 @@ app.secret_key = "cts_secret_key_123"  # Cambia esta clave por una más segura e
 # ------------------- USUARIOS -------------------
 # Puedes definir aquí los usuarios válidos
 USUARIOS = {
-    "usuarioCTS": "12345",
-    "adminCTS": "admin123"
+    "Lalo_Luna": "y3#+P(4v[N6(",
+    "Jose_Consultor": "654321987"
 }
 
 # ------------------- RUTAS -------------------
