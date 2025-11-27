@@ -1,0 +1,10 @@
+# Entorno virtual
+venv/
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+
+# Archivos de configuración de tu editor (opcional)
+*.vscode/
+*.idea/
