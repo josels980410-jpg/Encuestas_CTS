@@ -1,5 +1,5 @@
 git add .
-git commit -m "Actualización Logo"
+git commit -m "Actualización contraseñas"
 git push origin master
 
 

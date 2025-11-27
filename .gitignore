@@ -8,3 +8,5 @@ __pycache__/
 # Archivos de configuración de tu editor (opcional)
 *.vscode/
 *.idea/
+
+credenciales_google.json*
