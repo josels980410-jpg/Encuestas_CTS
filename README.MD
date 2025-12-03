@@ -1,13 +1,15 @@
+## Actualizar cada cambio que se realiza en VSCode
+
 git add .
 git commit -m "Actualización GoogleSheet"
 git push origin master
 
+## Activar venv
+.\venv\Scripts\Activate.ps1
 
-adminCTS
-admin123
 
+## Credenciales 
 
-powerbi_urls = [
-        "https://app.powerbi.com/view?r=eyJrIjoiY2IwNzU0YTItZTNiMi00NDVmLWJmYTktYWM5MTQ0ZTJlNWUxIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9",
-        "https://app.powerbi.com/view?r=eyJrIjoiYWY4NDA4OTgtYzhiNy00NzE3LWFmZDQtMDRiNmM2YzIzYzg4IiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9" 
-    ]
+Usuario: Jose_Consultor
+Contraseña: 654321987
+

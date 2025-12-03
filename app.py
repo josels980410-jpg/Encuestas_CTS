@@ -19,7 +19,7 @@ app.permanent_session_lifetime = timedelta(minutes=30)
 
 
 # ------------------- GOOGLE SHEETS -------------------
-GOOGLE_SHEETS_ID = "1rNtbNAbpcn8HpM4rl8OJ538kqQJKQDzYEzIFsI2TluQ"
+GOOGLE_SHEETS_ID = "1xp29uimLOTPHdWKuCcyDPcB-MpmDrz6Hs7j0IkrRsFc"
 CREDENCIALES_JSON = "credenciales_google.json"
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
