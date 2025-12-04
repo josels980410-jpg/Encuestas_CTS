@@ -121,13 +121,13 @@
 
         <div class="buttons-group">
             <a href="#" class="btn active" id="btn-capacitacion">Capacitación</a>
-            <a href="#" class="btn" id="btn-enfermeria">Enfermería</a>
+            <a href="#" class="btn" id="btn-enfermeria">Orientación Médica</a>
             <a href="{{ url_for('logout') }}" class="btn btn-logout">Cerrar Sesión</a>
         </div>
     </div>
 
     <div class="iframe-container">
-        <iframe id="iframe-powerbi" src="https://app.powerbi.com/view?r=eyJrIjoiNGI4NGFjMTgtZjQ2Mi00ZGM0LTlhY2UtYmQzNDc4NDRiNzdhIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9" allowFullScreen="true"></iframe>
+        <iframe id="iframe-powerbi" src="https://app.powerbi.com/view?r=eyJrIjoiYjJjMWJhYzYtY2JkMS00Y2M3LTk3MTEtOGY4YTViYjljNmMzIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9" allowFullScreen="true"></iframe>
     </div>
 
     <script>
@@ -136,7 +136,7 @@
         const iframe = document.getElementById('iframe-powerbi');
 
         btnCap.addEventListener('click', () => {
-            iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiNGI4NGFjMTgtZjQ2Mi00ZGM0LTlhY2UtYmQzNDc4NDRiNzdhIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9"; 
+            iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiYjJjMWJhYzYtY2JkMS00Y2M3LTk3MTEtOGY4YTViYjljNmMzIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9"; 
             btnCap.classList.add('active');
             btnEnf.classList.remove('active');
         });
