@@ -103,7 +103,7 @@ def dashboard():
 
     # Lista de tus iframes PowerBI
     powerbi_urls = [
-        "https://app.powerbi.com/view?r=eyJrIjoiZWIxYTJmNjktYjg1My00N2U0LWI1MDUtYmJmYjQwY2MxNmRhIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9", #Capacitación
+        "https://app.powerbi.com/view?r=eyJrIjoiNGI4NGFjMTgtZjQ2Mi00ZGM0LTlhY2UtYmQzNDc4NDRiNzdhIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9", #Capacitación
         "https://app.powerbi.com/view?r=eyJrIjoiYWY4NDA4OTgtYzhiNy00NzE3LWFmZDQtMDRiNmM2YzIzYzg4IiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9" #Enfermeria
     ]
 
