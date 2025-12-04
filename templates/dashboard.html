@@ -122,6 +122,7 @@
         <div class="buttons-group">
             <a href="#" class="btn active" id="btn-capacitacion">Capacitación</a>
             <a href="#" class="btn" id="btn-enfermeria">Orientación Médica</a>
+            <a href="#" class="btn active" id="btn-capacitacion">Gestión de Talento</a>
             <a href="{{ url_for('logout') }}" class="btn btn-logout">Cerrar Sesión</a>
         </div>
     </div>
@@ -142,7 +143,7 @@
         });
 
         btnEnf.addEventListener('click', () => {
-            iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiYWY4NDA4OTgtYzhiNy00NzE3LWFmZDQtMDRiNmM2YzIzYzg4IiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9";
+            iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiM2UzYmQ4YTYtZjEyOC00ZmJjLTg3ZWEtOTgxZTFlMzM3ZTY3IiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9";
             btnEnf.classList.add('active');
             btnCap.classList.remove('active');
         });

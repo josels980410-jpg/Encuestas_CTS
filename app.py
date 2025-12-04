@@ -104,7 +104,7 @@ def dashboard():
     # Lista de tus iframes PowerBI
     powerbi_urls = [
         "https://app.powerbi.com/view?r=eyJrIjoiYjJjMWJhYzYtY2JkMS00Y2M3LTk3MTEtOGY4YTViYjljNmMzIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9", #Capacitación
-        "https://app.powerbi.com/view?r=eyJrIjoiYWY4NDA4OTgtYzhiNy00NzE3LWFmZDQtMDRiNmM2YzIzYzg4IiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9" #Enfermeria
+        "https://app.powerbi.com/view?r=eyJrIjoiM2UzYmQ4YTYtZjEyOC00ZmJjLTg3ZWEtOTgxZTFlMzM3ZTY3IiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9" #Enfermeria
     ]
 
     return render_template("dashboard.html", powerbi_urls=powerbi_urls, user=session["user"])
