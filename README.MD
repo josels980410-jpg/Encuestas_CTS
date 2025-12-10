@@ -1,7 +1,7 @@
 ## Actualizar cada cambio que se realiza en VSCode
 
 git add .
-git commit -m "Actualización Liga Orientación Medica"
+git commit -m "Actualización Liga Gestion de Talentos"
 git push origin master
 
 ## Activar venv

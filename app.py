@@ -52,8 +52,14 @@ except Exception as e:
 
 # ------------------- USUARIOS -------------------
 USUARIOS = {
+    "Jose_Consultor": "654321987",
     "Lalo_Luna": "y3#+P(4v[N6(",
-    "Jose_Consultor": "654321987"
+    "Jacqueline_TH" : "u5Cv&]79jNM1",
+    "Berenice_Aponte": "rB362+6zs2^%",
+    "Juan_Hernandez": "cfpL39*8I9(!1",
+    "Estefania_Balbuea" : "97yBpZR4D@}?",
+    "Zitlallin_Miguel": "mEk=y£B1!3t1",
+    "David_Cristobal": "2\BfX7#66Nb."
 }
 
 
