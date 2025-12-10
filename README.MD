@@ -1,11 +1,14 @@
 ## Actualizar cada cambio que se realiza en VSCode
 
 git add .
-git commit -m "Actualización Liga Gestion de Talentos"
+git commit -m "Actualización de Usuario"
 git push origin master
 
 ## Activar venv
-.\venv\Scripts\Activate.ps1
+
+Dependiendo el entorno virtual creado en la computadora 
+
+C:\Entornos_Virtuales\venv_Encuestas_CTS\Scripts\Activate.ps1
 
 
 ## Credenciales 

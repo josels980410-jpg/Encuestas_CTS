@@ -50,9 +50,11 @@ except Exception as e:
     sheet = None
 
 
-# ------------------- USUARIOS -------------------
+# ------------------- USUARIOS -------------------s
+
 USUARIOS = {
     "Jose_Consultor": "654321987",
+    "Prueba" : "654321987",
     "Lalo_Luna": "y3#+P(4v[N6(",
     "Jacqueline_TH" : "u5Cv&]79jNM1",
     "Berenice_Aponte": "rB362+6zs2^%",
