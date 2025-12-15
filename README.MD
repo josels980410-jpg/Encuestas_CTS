@@ -1,5 +1,6 @@
 ## Actualizar cada cambio que se realiza en VSCode
 
+git status
 git add .
 git commit -m "Actualización de Usuario"
 git push origin master
