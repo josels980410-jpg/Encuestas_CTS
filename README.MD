@@ -2,7 +2,7 @@
 
 git status
 git add .
-git commit -m "Actualización de Usuario"
+git commit -m "Actualización venv"
 git push origin master
 
 ## Activar venv

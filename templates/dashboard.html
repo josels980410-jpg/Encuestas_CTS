@@ -127,8 +127,8 @@
         </div>
     </div>
 
-    <div class="iframe-container">
-        <iframe id="iframe-powerbi" src="https://app.powerbi.com/view?r=eyJrIjoiYjJjMWJhYzYtY2JkMS00Y2M3LTk3MTEtOGY4YTViYjljNmMzIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9" allowFullScreen="true"></iframe>
+    <div class="iframe-container"> <!--URL de Capacitación-->
+        <iframe id="iframe-powerbi" src="https://app.powerbi.com/view?r=eyJrIjoiYzM5Mjc5MzctZmUyZi00YzU0LWEwMGItODk0ZWUwOTI3YWViIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9" allowFullScreen="true"></iframe>
     </div>
 
     <script>
@@ -138,19 +138,19 @@
         const iframe = document.getElementById('iframe-powerbi');
 
         btnCap.addEventListener('click', () => {
-            iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiYjJjMWJhYzYtY2JkMS00Y2M3LTk3MTEtOGY4YTViYjljNmMzIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9"; 
+            iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiYzM5Mjc5MzctZmUyZi00YzU0LWEwMGItODk0ZWUwOTI3YWViIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9"; 
             btnCap.classList.add('active');
             btnEnf.classList.remove('active');
         });
 
         btnEnf.addEventListener('click', () => {
-            iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiM2UzYmQ4YTYtZjEyOC00ZmJjLTg3ZWEtOTgxZTFlMzM3ZTY3IiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9";
+            iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiNTAyNmJkMWEtZDVhYi00MDZjLThiMTgtMDkyZDZmMDNlZmUxIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9";
             btnEnf.classList.add('active');
             btnCap.classList.remove('active');
         });
 
         btnTal.addEventListener('click', () => {
-            iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiNWYxMDM0YmMtMTA0OS00OGQ1LWEzNDMtYmJmNGE5ODk2ZDc4IiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9";
+            iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiYjZlYTEzZjMtZWE2Yy00NGQ4LThlY2UtMmQ3NzIxN2FjYzRmIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9";
             btnTal.classList.add('active');
             btnCap.classList.remove('active');
             btnEnf.classList.remove('active');
