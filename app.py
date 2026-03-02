@@ -60,7 +60,9 @@ USUARIOS = {
     "Juan_Hernandez": "cfpL39*8I9(!1",
     "Estefania_Balbuena" : "97yBpZR4D@}?",
     "Zitlallin_Miguel": "mEk=y£B1!3t1",
-    "David_Cristobal": "2\BfX7#66Nb."
+    "David_Cristobal": "2\BfX7#66Nb.",
+    "Pamela_Ochoa":"K#7vP!zLq*5B"
+
 }
 
 
