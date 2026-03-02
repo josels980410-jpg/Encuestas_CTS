@@ -141,12 +141,14 @@
             iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiYzM5Mjc5MzctZmUyZi00YzU0LWEwMGItODk0ZWUwOTI3YWViIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9"; 
             btnCap.classList.add('active');
             btnEnf.classList.remove('active');
+            btnTal.classList.add('active');
         });
 
         btnEnf.addEventListener('click', () => {
             iframe.src = "https://app.powerbi.com/view?r=eyJrIjoiNTAyNmJkMWEtZDVhYi00MDZjLThiMTgtMDkyZDZmMDNlZmUxIiwidCI6IjAzODk5MTIxLWQ5NzYtNDRlOS1iODI0LTFmYzU1N2JmZGRjZSJ9";
             btnEnf.classList.add('active');
             btnCap.classList.remove('active');
+            btnTal.classList.add('active');
         });
 
         btnTal.addEventListener('click', () => {
